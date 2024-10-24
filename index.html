@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website to showcase skills and projects.">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <div id="particles-js"></div> <!-- stats - count particles -->
+  <div class="count-particles"> 
+    <span class="js-count-particles"></span>
+  </div>
+  <div class="content">
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>
+          Hello, I'm
+          <span class="highlight">Durga Sai Bharadwaj Racharla</span>.
+        </h2>
+        <p>I'm a Software Engineer.</p>
+        <a href="#portfolio" class="cta-button">View my work</a>
+      </div>
+    </section>
+  </div>
+
+  <header aria-label="Main navigation">
+    <nav class="navbar" aria-label="Primary navigation">
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="#home" aria-label="Go to Home section">Home</a></li>
+          <li><a href="#skills" aria-label="Go to Skills section">Skills</a></li>
+          <li><a href="#experience" aria-label="Go to Experience section">Experience</a></li>
+          <li><a href="#portfolio" aria-label="Go to Projects section">Projects</a></li>
+          <li><a href="#certifications" aria-label="Go to Blog section">Certifications</a></li>
+          <li><a href="#achievements" aria-label="Go to Blog section">Achievements</a></li>
+          <li><a href="#contact" aria-label="Go to Contact section">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="skills" class="skills" aria-labelledby="skills-heading">
+    <div class="container skills-container">
+      <h2 id="skills-heading">Skills</h2>
+      <div class="skills-section">
+        <div class="skills-category">
+          <h3>Technologies, Libraries and IDE's that I use frequently</h3>
+          <div class="skills-icons" role="list" aria-label="Frequent skills">
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:python" data-width="40" data-height="40"></span>
+              <span>Python</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:java" data-width="40" data-height="40"></span>
+              <span>Java</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <img src="images/Ml Algo.png" alt="ML Algorithms" width="40" height="40">
+              <span>ML Algorithms</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:jupyter" data-width="40" data-height="40"></span>
+              <span>Jupyter</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:pandas" data-width="40" data-height="40"></span>
+              <span>Pandas</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:numpy" data-width="40" data-height="40"></span>
+              <span>Numpy</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:github" data-width="40" data-height="40"></span>
+              <span>Github</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <img src="images/matplotlib.svg" alt="Matplotlib">
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:scikitlearn" data-width="40"
+                data-height="40"></span>
+              <span>Scikit-Learn</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:powerbi" data-width="40" data-height="40"></span>
+              <span>Power BI</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:mysql" data-width="40" data-height="40"></span>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:postgresql" data-width="40" data-height="40"></span>
+              <span>PostgresSQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Technologies that I knew and used on previous projects</h3>
+          <div class="skills-icons" role="list" aria-label="Previous project skills">
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:python" data-width="40" data-height="40"></span>
+              <span>Python</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:java" data-width="40" data-height="40"></span>
+              <span>Java</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:react" data-width="40" data-height="40"></span>
+              <span>React</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:css-3" data-width="40" data-height="40"></span>
+              <span>CSS</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:bootstrap" data-width="40" data-height="40"></span>
+              <span>Bootstrap</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:mysql" data-width="40" data-height="40"></span>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:nodejs-icon" data-width="40" data-height="40"></span>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:spring-icon" data-width="40" data-height="40"></span>
+              <span>Spring Boot</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:android" data-width="40" data-height="40"></span>
+              <span>Android</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:github" data-width="40" data-height="40"></span>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:jenkins" data-width="40" data-height="40"></span>
+              <span>Jenkins</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:redis" data-width="40" data-height="40"></span>
+              <span>Redis</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="logos:apache-kafka" data-width="40" data-height="40"></span>
+              <span>Kafka</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:gradle" data-width="40" data-height="40"></span>
+              <span>Gradle</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:drupal" data-width="40" data-height="40"></span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:wordpress" data-width="40"
+                data-height="40"></span>
+              <span>WordPress</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:junit5" data-width="40" data-height="40"></span>
+              <span>JUnit</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:aws" data-width="40" data-height="40"></span>
+              <span>AWS</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="simple-icons:django" data-width="40" data-height="40"></span>
+              <span>Django</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify icon-white" data-icon="mdi:web" data-width="40" data-height="40"></span>
+              <span>SEO</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:gitlab" data-width="40" data-height="40"></span>
+              <span>GitLab</span>
+            </div>
+            <div class="skill-icon" role="listitem">
+              <span class="iconify" data-icon="logos:tensorflow" data-width="40" data-height="40"></span>
+              <span>TensorFlow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proficiency" class="proficiency" aria-labelledby="proficiency-heading">
+    <div class="container proficiency-container">
+      <h2 id="proficiency-heading">My Tech proficiency</h2>
+      <div class="proficiency-bars" role="list" aria-label="Proficiency bars">
+        <div class="proficiency-bar" role="listitem">
+          <span>Python</span>
+          <div class="bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>Java</span>
+          <div class="bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>MySQL</span>
+          <div class="bar">
+            <div class="progress" style="width: 100%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>PostgresSQL</span>
+          <div class="bar">
+            <div class="progress" style="width: 100%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>Kotlin</span>
+          <div class="bar">
+            <div class="progress" style="width: 60%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>JavaScript</span>
+          <div class="bar">
+            <div class="progress" style="width: 70%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>HTML5</span>
+          <div class="bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>CSS3</span>
+          <div class="bar">
+            <div class="progress" style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>Android Studio</span>
+          <div class="bar">
+            <div class="progress" style="width: 100%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>ML and AI</span>
+          <div class="bar">
+            <div class="progress" style="width: 65%"></div>
+          </div>
+        </div>
+        <div class="proficiency-bar" role="listitem">
+          <span>Power BI</span>
+          <div class="bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience" aria-labelledby="experience-heading">
+    <div class="container experience-container">
+      <h2 id="experience-heading">Experience</h2>
+      <div class="experience-section">
+        <div class="experience-item">
+          <div class="experience-title">Software Engineer at Tata Consultancy Services</div>
+          <div class="experience-duration">March 2022 - September 2023</div>
+          <div class="experience-skills">
+            <div class="experience-skill-icon">
+              <span class="iconify" data-icon="logos:java" data-width="40" data-height="40"></span>
+              <span>Java</span>
+            </div>
+            <div class="experience-skill-icon">
+              <span class="iconify" data-icon="logos:spring" data-width="40" data-height="40"></span>
+              <span>Spring Boot</span>
+            </div>
+            <div class="experience-skill-icon">
+              <span class="iconify" data-icon="logos:postgresql" data-width="40" data-height="40"></span>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="experience-skill-icon">
+              <span class="iconify" data-icon="logos:redis" data-width="40" data-height="40"></span>
+              <span>Redis</span>
+            </div>
+            <div class="experience-skill-icon">
+              <span class="iconify" data-icon="logos:kafka" data-width="40" data-height="40"></span>
+              <span>Kafka</span>
+            </div>
+            <div class="experience-skill-icon">
+              <span class="iconify" data-icon="logos:jenkins" data-width="40" data-height="40"></span>
+              <span>Jenkins</span>
+            </div>
+            <div class="experience-skill-icon">
+              <span class="iconify" data-icon="logos:aws" data-width="40" data-height="40"></span>
+              <span>AWS</span>
+            </div>
+          </div>
+          <div class="experience-description">
+            <ul>
+              <li>Developed features in an existing web application using Microservices and Java.</li>
+              <li>Experienced in Jenkins, PUTTY, and running the CI/CD pipelines.</li>
+              <li>Worked with databases like PostgreSQL, Redis, and Kafka.</li>
+              <li>Designed and implemented software solutions using Java and Spring Boot.</li>
+              <li>Handled security breaches involving sensitive employee data.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">Software Enginner at Medibliss Transactions</div>
+          <div class="experience-duration">August 2021 - March 2022</div>
+          <div class="experience-skills">
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:python" data-width="40" data-height="40"></span>
+              <span>Python</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:tensorflow" data-width="40" data-height="40"></span>
+              <span>TensorFlow</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify icon-white" data-icon="simple-icons:pandas" data-width="40" data-height="40"></span>
+              <span>Pandas</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:numpy" data-width="40" data-height="40"></span>
+              <span>NumPy</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify icon-white" data-icon="simple-icons:scikitlearn" data-width="40" data-height="40"></span>
+              <span>Scikit-Learn</span>
+            </div>
+          </div>
+          <div class="experience-description">
+            <ul>
+              <li>Responsible for creating Android apps.</li>
+              <li>Contributed as a backend developer for the MCX ( Multi- Commodity- Exchange) app.</li>
+              <li>Responsible for deploying the apps in playstore.</li>
+              <li>Built an android app right from the scratch to a client called Spotflock.</li>
+              <li>Responsible for testing the Android app.</li>
+              <li>Have written unit test cases and made sure each build is successful.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">Junior Developer at Medibliss Transactions</div>
+          <div class="experience-duration">August 2020 - August 2021</div>
+          <div class="experience-skills">
+            <div class="skill-icon">
+              <span class="iconify icon-white" data-icon="simple-icons:android" data-width="40" data-height="40"></span>
+              <span>Android</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:kotlin" data-width="40" data-height="40" style="size:50px;"></span>
+              <span>Kotlin</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:java" data-width="40" data-height="40"></span>
+              <span>Java</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="mdi:api" data-width="40" data-height="40"></span>
+
+              <span>REST API</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:xml" data-width="40" data-height="40"></span>
+              <span>XML</span>
+            </div>
+          </div>
+          <div class="experience-description">
+            <ul>
+              <li>Responsible for building website for clients in Drupal and Wordpress.</li> 
+              <li>Content writing and SEO optimization</li>
+              <li>Running AD campaigns for the company in different social media sites. Have delivered quality content writing.</li>
+              <li>Responsible for developing Android apps and testing.</li>
+              <li>Designed and built advanced applications for the Android platform using Kotlin and Java.</li>
+              <li>Deployed an Android application to the Play Store and optimized live applications.</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+<section id="education" class="education" aria-labelledby="education-heading">
+  <div class="container education-container">
+    <h2 id="education-heading">Education</h2>
+    <div class="education-section">
+
+      <!-- First Education Item -->
+      <div class="education-item">
+        <div class="education-title">IT Programming in AI</div>
+        <div class="education-duration">Nova Scotia Community College, Halifax, NS - April 2025</div>
+        <div class="education-skills">
+          <div class="skills-icons">
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:python" data-width="40" data-height="40"></span>
+              <span>Python</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:tensorflow" data-width="40" data-height="40"></span>
+              <span>TensorFlow</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:pandas" data-width="40" data-height="40"></span>
+              <span>Pandas</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:numpy" data-width="40" data-height="40"></span>
+              <span>NumPy</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:scikitlearn" data-width="40" data-height="40"></span>
+              <span>Scikit-Learn</span>
+            </div>
+          </div>
+        </div>
+        <div class="education-description">
+          <ul>
+            <li>Currently pursuing my Graduate Certificate in AI and ML</li>
+            <li>Machine Learning Algorithms</li>
+            <li>Data analysis using different databases</li>
+            <li>Statistical Mathematics</li>
+            <li>Python</li>
+            <li>Data Structures and Algorithms</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Second Education Item -->
+      <div class="education-item">
+        <div class="education-title">AI with Machine Learning, Ontario Graduate</div>
+        <div class="education-duration">Humber College, Toronto, ON - April 2024</div>
+        <div class="education-skills">
+          <div class="skills-icons">
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:python" data-width="40" data-height="40"></span>
+              <span>Python</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:tensorflow" data-width="40" data-height="40"></span>
+              <span>TensorFlow</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:pandas" data-width="40" data-height="40"></span>
+              <span>Pandas</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:numpy" data-width="40" data-height="40"></span>
+              <span>NumPy</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:scikitlearn" data-width="40" data-height="40"></span>
+              <span>Scikit-Learn</span>
+            </div>
+          </div>
+        </div>
+        <div class="education-description">
+          <ul>
+            <li>Completed several courses and projects related to AI and ML concepts</li>
+            <li>Machine Learning Fundamentals</li>
+            <li>Deep Learning and Neural Networks</li>
+            <li>Statistical Analysis for Data Science</li>
+            <li>Natural Language Processing</li>
+            <li>Computer Vision</li>
+            <li>Model deployment in the cloud using AWS</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Third Education Item -->
+      <div class="education-item">
+        <div class="education-title">Bachelor of Computer Science Engineering</div>
+        <div class="education-duration">JNTU Hyderabad, India - August 2020</div>
+        <div class="education-skills">
+          <div class="skills-icons">
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:java" data-width="40" data-height="40"></span>
+              <span>Java</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:mysql" data-width="40" data-height="40"></span>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-icon">
+              <span class="iconify" data-icon="logos:postgresql" data-width="40" data-height="40"></span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="education-description">
+          <ul>
+            <li>Acquired knowledge in C, Java, Data Structures, Python, and Computer Networks</li>
+            <li>Worked with databases like MySQL and PostgreSQL</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="portfolio" class="portfolio" aria-labelledby="portfolio-heading">
+    <div class="container">
+      <h2 id="portfolio-heading">Projects</h2>
+      <div class="portfolio-grid">
+  
+        <!-- Multi Commodity Exchange Project -->
+        <div class="portfolio-item">
+          <img src="images/project_1.png" alt="Multi Commodity Exchange project screenshot">
+          <h3>Multi Commodity Exchange</h3>
+          <ul class="portfolio-ul" aria-label="Multi Commodity Exchange project details">
+            <li>The Multi Commodity Exchange of India Limited (MCX), India’s first listed exchange, is a
+              state-of-the-art, commodity derivatives exchange that facilitates online trading of commodities like gold,
+              silver, copper, etc.
+            </li>
+            <li>An Android application where you can see the current and exchange rates of commodities and trade them.
+            </li>
+            <li>Watch the market, Top Gainers, and Top Losers, and invest by analyzing the market trends.</li>
+            <li>Future Predictions: predict whether the commodity price will increase or decrease.</li>
+            <li>Implemented in Android using Java and Kotlin. Integrated ML Kit SDK for generating graphs and Heat maps.
+            </li>
+            <li>Used REST API services and Android XML design for dependency management.</li>
+          </ul>
+          <div class="skills">
+            <h4>Skills Used</h4>
+            <div class="skills-icons">
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:kotlin" data-width="40" data-height="40"></span>
+                <span>Kotlin</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:java" data-width="40" data-height="40"></span>
+                <span>Java</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:android" data-width="40" data-height="40"></span>
+                <span>Android Studio</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:junit" data-width="40" data-height="40"></span>
+                <span>JUnit</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:postgresql" data-width="40" data-height="40"></span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:postman" data-width="40" data-height="40"></span>
+                <span>Postman</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:github-icon" data-width="40" data-height="40"></span>
+                <span>GitHub</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:gradle" data-width="40" data-height="40"></span>
+                <span>Gradle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Cross Jobs Project -->
+        <div class="portfolio-item">
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="images/project1.png" style="width:100%" alt="Cross Jobs - Home Page">
+            </div>
+            <div class="mySlides fade">
+              <img src="images/project2.png" style="width:100%" alt="Cross Jobs - Dashboard">
+            </div>
+            <div class="mySlides fade">
+              <img src="images/project3.png" style="width:100%" alt="Cross Jobs - Candidate Ranking">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          <h3>Cross Jobs</h3>
+          <ul class="portfolio-ul" aria-label="Cross Jobs project details">
+            <li><strong>AI-Based Resume Parsing:</strong> Automates extracting key candidate information from resumes,
+              creating
+              a searchable database for efficient profile management.</li>
+            <li><strong>Candidate Ranking:</strong> Uses AI algorithms to match candidates to job roles and rank them
+              based on suitability.</li>
+            <li><strong>Automated Candidate Recommendations:</strong> Provides machine learning-based suggestions for
+              potential candidates, continuously improving through past recruitment data.</li>
+            <li><strong>Integration with Job Boards:</strong> Expands the search for candidates using AI techniques on
+              external platforms like LinkedIn and Glassdoor.</li>
+            <li><strong>AI Insights:</strong> Offers advanced analytics and insights into recruitment strategies.</li>
+            <li><strong>Dynamic Forms:</strong> Allows recruiters to create customized job application forms.</li>
+            <li><strong>Microsoft for Startups:</strong> The project is registered under Microsoft for Startups to access
+              enhanced cloud services and business support.</li>
+          </ul>
+          <div class="skills">
+            <h4>Skills Used</h4>
+            <div class="skills-icons">
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:react" data-width="40" data-height="40"></span>
+                <span>React</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:javascript" data-width="40" data-height="40"></span>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:django" data-width="40" data-height="40"></span>
+                <span>Django</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:docker" data-width="40" data-height="40"></span>
+                <span>Docker</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:spacy" data-width="40" data-height="40"></span>
+                <span>Spacy</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="mdi:robot-outline" data-width="40" data-height="40"></span>
+                <span>ChatGPT API</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="simple-icons:mistral" data-width="40" data-height="40"></span>
+                <span>Mistral 7b</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:css-3" data-width="40" data-height="40"></span>
+                <span>CSS</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:nodejs" data-width="40" data-height="40"></span>
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-link">
+            <a href="https://crossjobs.ca" target="_blank">Visit CrossJobs.ca</a>
+          </div>
+        </div>
+  
+        <!-- Intellihub Project -->
+        <div class="portfolio-item">
+          <h3>Intellihub</h3>
+          <ul class="portfolio-ul" aria-label="Intellihub project details">
+            <li>Designed and developed an Android application for cryptocurrency exchange, allowing users to view prices
+              across multiple exchanges and trade cryptocurrencies.</li>
+            <li>Implemented both front-end and back-end functionality for detailed cryptocurrency analysis, historical
+              price tracking, and prediction models.</li>
+            <li>Used Java, Kotlin, and REST API services for data retrieval and processing.</li>
+            <li>Integrated charts and graphs for visual representation of cryptocurrency performance.</li>
+          </ul>
+          <div class="skills">
+            <h4>Skills Used</h4>
+            <div class="skills-icons">
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:kotlin" data-width="40" data-height="40"></span>
+                <span>Kotlin</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:java" data-width="40" data-height="40"></span>
+                <span>Java</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:android" data-width="40" data-height="40"></span>
+                <span>Android Studio</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:junit" data-width="40" data-height="40"></span>
+                <span>JUnit</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:postgresql" data-width="40" data-height="40"></span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:postman" data-width="40" data-height="40"></span>
+                <span>Postman</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:android" data-width="40" data-height="40"></span>
+                <span>Android SDK</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:gradle" data-width="40" data-height="40"></span>
+                <span>Gradle</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="mdi:api" data-width="40" data-height="40"></span>
+                <span>REST API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- German Traffic Sign Recognition Benchmark -->
+        <div class="portfolio-item">
+          <h3>German Traffic Sign Recognition Benchmark</h3>
+          <ul class="portfolio-ul" aria-label="German Traffic Sign Recognition project details">
+            <li>Developed an advanced traffic sign recognition system using convolutional neural networks (CNNs) to
+              automatically detect and classify traffic signs.</li>
+            <li>Eliminated manual feature engineering by using deep learning methodologies, reducing time-consuming
+              handcrafting efforts.</li>
+            <li>The model demonstrated high accuracy in identifying diverse traffic sign categories under varying
+              environmental conditions.</li>
+          </ul>
+          <div class="skills">
+            <h4>Skills Used</h4>
+            <div class="skills-icons">
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:python" data-width="40" data-height="40"></span>
+                <span>Python</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:tensorflow" data-width="40" data-height="40"></span>
+                <span>TensorFlow</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:keras" data-width="40" data-height="40"></span>
+                <span>Keras</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:opencv" data-width="40" data-height="40"></span>
+                <span>OpenCV</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:scikit-learn" data-width="40" data-height="40"></span>
+                <span>Scikit-learn</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:numpy" data-width="40" data-height="40"></span>
+                <span>NumPy</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:pandas" data-width="40" data-height="40"></span>
+                <span>Pandas</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:matplotlib" data-width="40" data-height="40"></span>
+                <span>Matplotlib</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- XGBoost Model Deployment on AWS -->
+        <div class="portfolio-item">
+          <h3>XGBoost Model Deployment on AWS</h3>
+          <ul class="portfolio-ul" aria-label="XGBoost Model Deployment project details">
+            <li>Developed an XGBoost machine learning model for predicting Amazon Employee Access Challenge using AWS
+              services for automated deployment.</li>
+            <li>Utilized AWS services like S3 for data storage, SageMaker for model training, and Lambda for handling
+              model inference.</li>
+            <li>Set up an end-to-end machine learning pipeline that automates data preprocessing, model training, and
+              model deployment.</li>
+            <li>Monitored model performance and retrained the model as needed using AWS Step Functions and CloudWatch.
+            </li>
+            <li>Deployed the model through an API gateway to enable real-time predictions.</li>
+          </ul>
+          <div class="skills">
+            <h4>Skills Used</h4>
+            <div class="skills-icons">
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:xgboost" data-width="40" data-height="40"></span>
+                <span>XGBoost</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:aws" data-width="40" data-height="40"></span>
+                <span>AWS</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:python" data-width="40" data-height="40"></span>
+                <span>Python</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:sagemaker" data-width="40" data-height="40"></span>
+                <span>SageMaker</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:aws-lambda" data-width="40" data-height="40"></span>
+                <span>Lambda</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:api-gateway" data-width="40" data-height="40"></span>
+                <span>API Gateway</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:s3" data-width="40" data-height="40"></span>
+                <span>S3</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:docker" data-width="40" data-height="40"></span>
+                <span>Docker</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:cloudwatch" data-width="40" data-height="40"></span>
+                <span>CloudWatch</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Art Collection Management System -->
+        <div class="portfolio-item">
+          <h3>Art Collection Management System</h3>
+          <ul class="portfolio-ul" aria-label="Art Collection Management System project details">
+            <li>Developed an art collection management system to organize, manage, and display a catalog of artworks with
+              details including artist information, artwork value, and provenance.</li>
+            <li>Enabled an easy-to-use interface for adding, updating, and deleting artist profiles and their associated
+              artworks.</li>
+            <li>Implemented image uploads to display high-resolution artwork images alongside artist and value details.
+            </li>
+            <li>Designed the system with a relational database to handle artist, artwork, and value data, establishing
+              connections between these entities for efficient querying.</li>
+            <li>Utilized role-based access control (RBAC) to manage permissions, ensuring that only authorized users could
+              add or edit artist and artwork details.</li>
+            <li>Incorporated security measures such as input sanitization to prevent XSS attacks and rate-limiting to
+              protect against brute force attempts and DoS attacks on sensitive endpoints.</li>
+            <li>Deployed the application using Flask and integrated MySQL for persistent data storage with SQLAlchemy for
+              ORM.</li>
+            <li>Provided advanced search and filtering options, allowing users to search for artworks based on artist
+              name, value, or location.</li>
+            <li>Included a responsive design, ensuring that the system is accessible on both desktop and mobile devices,
+              with a clean and intuitive user interface.</li>
+          </ul>
+          <div class="skills">
+            <h4>Skills Used</h4>
+            <div class="skills-icons">
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:flask" data-width="40" data-height="40"></span>
+                <span>Flask</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:mysql" data-width="40" data-height="40"></span>
+                <span>MySQL</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:sqlalchemy" data-width="40" data-height="40"></span>
+                <span>SQLAlchemy</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:html-5" data-width="40" data-height="40"></span>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:css-3" data-width="40" data-height="40"></span>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:bootstrap" data-width="40" data-height="40"></span>
+                <span>Bootstrap</span>
+              </div>
+              <div class="skill-icon">
+                <span class="iconify" data-icon="logos:javascript" data-width="40" data-height="40"></span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+
+  <section id="achievements" class="achievements" aria-labelledby="achievements-heading">
+    <div class="container">
+      <h2 id="achievements-heading">Achievements</h2>
+  
+      <!-- Award Achievement -->
+      <div class="achievement-item">
+        <h3>Best Capstone Project in AI with ML Course - Humber College</h3>
+        <p>Our team was awarded the Best Capstone Project in the AI with ML course at Humber College. This award
+          recognized our exceptional work on the Cross Jobs project, which automated resume parsing and candidate ranking
+          using AI.</p>
+  
+        <!-- Video Section -->
+        <div class="video-container">
+          <h4>Award Ceremony Video</h4>
+  
+          <!-- Option 1: Embedding Video Locally -->
+          <video controls width="100%" poster="images/award-thumbnail.png">
+            <source src="videos/Capstone.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+  
+          <!-- Option 2: Embedding Video from YouTube/Vimeo -->
+          <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" 
+                  title="Award Ceremony Video" frameborder="0" allow="accelerometer; autoplay; 
+                  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="certifications" aria-labelledby="certifications-heading">
+    <div class="container certifications-container">
+      <h2 id="certifications-heading">Certifications and Licenses</h2>
+      <div class="certifications-section">
+        <div class="certification-item">
+          <div class="certification-title">Mobile Application Development (MAD) - Google Workshop</div>
+          <div class="certification-date">Issued: 2021</div>
+        </div>
+  
+        <div class="certification-item">
+          <div class="certification-title">ELITE+ Certificate in Python</div>
+          <div class="certification-date">Issued by NPTEL, Jawaharlal Technological University</div>
+          <div class="certification-date">Issued: 2020</div>
+        </div>
+  
+        <div class="certification-item">
+          <div class="certification-title">Drone Building Contest - BITS Pilani, Hyderabad</div>
+          <div class="certification-date">Participation Certificate</div>
+        </div>
+  
+        <div class="certification-item">
+          <div class="certification-title">Hands-on Workshop on Internet of Things</div>
+          <div class="certification-date">Issued by CLOUDCHIP</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact" aria-labelledby="contact-heading">
+    <div class="container contact-container">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="contact-details">
+        <div class="contact-item">
+          <span class="iconify icon-white" data-icon="mdi:email-outline" data-width="40" data-height="40"></span>
+          <a href="mailto:bharadwajdurgasai@gmail.com" aria-label="Email Bharadwaj">bharadwajdurgasai@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="iconify icon-white" data-icon="mdi:linkedin" data-width="40" data-height="40"></span>
+          <a href="https://www.linkedin.com/in/durga-sai-bharadwaj-racharla-17254630a" target="_blank"
+            aria-label="LinkedIn profile of Bharadwaj">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; Bharadwaj Racharla 2024. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/particles-config.js"></script>
+</body>
+</html>
