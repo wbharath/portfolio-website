@@ -484,42 +484,7 @@ canvas {
   margin-bottom: 1em;
 }
 
-/* Tech Proficiency Section */
-.proficiency-container {
-  padding: 4em;
-  background-color: #333333;
-  color: #EFEFEF;
-}
 
-.proficiency-bars {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5em;
-}
-
-.proficiency-bar {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-}
-
-.proficiency-bar span {
-  width: 150px;
-  font-weight: bold;
-}
-
-.bar {
-  width: 100%;
-  background: #444;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.progress {
-  height: 15px;
-  background: #4A90E2;
-  border-radius: 5px;
-}
 
 /* Skills under Experience Section - Align them side by side */
 .experience-skills {
@@ -553,4 +518,313 @@ canvas {
 .experience-skill-icon img {
   height: 40px;
   width: auto;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  /* General Adjustments */
+  body {
+    font-size: 14px;
+  }
+
+  /* Navbar */
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  /* Hero Section */
+  .hero-content h2 {
+    font-size: 2em;
+  }
+
+  .hero-content p {
+    font-size: 1.2em;
+    padding: 0 15px;
+  }
+
+  /* Section Padding Adjustments */
+  .skills-container,
+  .experience-container,
+  .education-container,
+  .portfolio,
+  .achievements,
+  .certifications-container,
+  .proficiency-container,
+  .contact-container {
+    padding: 2em 1em;
+  }
+
+  /* Skills Section */
+  .skills-icons {
+    justify-content: center;
+  }
+
+  .skill-icon {
+    flex: 1 1 40%;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  /* Experience/Education Items */
+  .experience-item,
+  .education-item,
+  .certification-item {
+    padding: 1em;
+  }
+
+
+
+  
+
+  /* Contact Section */
+  .contact-item a {
+    font-size: 1.2em;
+  }
+
+  .contact-item img {
+    width: 24px;
+  }
+
+  /* Portfolio Grid */
+  .portfolio-grid {
+    gap: 1em;
+  }
+
+  /* Experience Skills */
+  .experience-skills {
+    gap: 0.8em;
+  }
+
+  .experience-skill-icon {
+    flex: 1 1 30%;
+    padding: 0.3em 0.5em;
+  }
+
+  .experience-skill-icon img {
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .hero-content h2 {
+    font-size: 1.8em;
+  }
+
+  .hero-content p {
+    font-size: 1em;
+  }
+
+  .cta-button {
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+  }
+
+  .skill-icon {
+    flex: 1 1 100%;
+  }
+
+  .portfolio-item h3 {
+    font-size: 1.2em;
+  }
+
+  .experience-skill-icon {
+    flex: 1 1 45%;
+    font-size: 0.9em;
+  }
+}
+
+
+/* Add these hamburger styles at the bottom of your CSS */
+/* ======= Hamburger Menu ======= */
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  right: 25px;
+  top: 25px;
+  z-index: 1000;
+  background: rgba(51, 51, 51, 0.95);
+  padding: 12px;
+  border-radius: 4px;
+  border: 2px solid #4A90E2;
+}
+
+.hamburger-menu .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #EFEFEF;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: #333;
+    flex-direction: column;
+    padding: 80px 20px;
+    transition: right 0.3s ease;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  /* Hamburger animation */
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+  
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+}
+
+/* ======= Navbar ======= */
+.navbar {
+  background-color: #333333;
+  color: #EFEFEF;
+  padding: 1em 0;
+  width: 100%;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* ======= Proficiency Bars ======= */
+
+
+.proficiency-container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: 0 auto;
+}
+.proficiency-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.proficiency-bar span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #EFEFEF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.proficiency-bar span::after {
+  content: attr(data-percent);
+  color: #32CD32;
+  font-weight: bold;
+}
+
+.bar {
+  width: 100%;
+  height: 20px;
+  background-color: #444;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #4A90E2 0%, #32CD32 100%);
+  border-radius: 10px;
+  position: relative;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progress::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background: linear-gradient(90deg, 
+    rgba(255,255,255,0.2) 0%, 
+    rgba(255,255,255,0.1) 100%);
+}
+
+/* ======= Mobile Responsive ======= */
+@media (max-width: 768px) {
+  .proficiency-bar span {
+    font-size: 1rem;
+  }
+  
+  .bar {
+    height: 18px;
+  }
+  .proficiency {
+    padding: 2em 1em; /* Top/Bottom: 2em, Left/Right: 1em */
+  }
+  .proficiency-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .proficiency-bar span {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .bar {
+    height: 15px;
+  }
+  .proficiency {
+    padding: 2em 0.5em; /* Top/Bottom: 2em, Left/Right: 0.5em */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Add padding to experience and education lists */
+  .experience-item ul,
+  .education-item ul {
+    padding-left: 1.5em;
+    margin-left: 1em;
+    padding-top: 1em;
+  }
+
+  /* Adjust list styling */
+  .experience-item li,
+  .education-item li {
+    margin-bottom: 0.8em;
+    padding-left: 0.5em;
+  }
 }
