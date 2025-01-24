@@ -35,3 +35,33 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
+// Hamburger Menu Functionality
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.querySelector('.hamburger-menu');
+  const navLinks = document.querySelector('.nav-links');
+
+  // Toggle mobile menu
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('mobile-active');
+    navLinks.classList.toggle('active');
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('mobile-active');
+      navLinks.classList.remove('active');
+    }
+  });
+
+  // Close menu on link click
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('mobile-active');
+      navLinks.classList.remove('active');
+    });
+  });
+});
