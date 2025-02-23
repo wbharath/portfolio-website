@@ -71,7 +71,6 @@ body {
   justify-content: center;
   height: 100vh;
   flex-direction: column;
-  pointer-events: none;
 }
 
 .hero-content h2 {
@@ -86,16 +85,38 @@ body {
 
 .cta-button {
   padding: 0.75em 1.5em;
-  background-color: transparent;
-  color: #EFEFEF;
-  border: 2px solid #EFEFEF;
+  
+  background: linear-gradient(90deg, #4A90E2 0%, #32CD32 100%);
+
+  color: #fff;
+
+  
+  border: none;
+
   text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
+  z-index: 1000;
+}
+
+
+.clickbtn{
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  flex-direction: row;    
+  gap: 1em;       
+}
+
+@media (max-width: 600px) {
+  .clickbtn {
+    flex-direction: column;
+  }
 }
 
 .cta-button:hover {
-  background-color: #32CD32;
+  background-color: #4A90E2;
   color: #333333;
+  z-index: 1000;
 }
 
 /* Skills Section */
@@ -741,6 +762,29 @@ canvas {
   color: #EFEFEF;
   display: flex;
   justify-content: space-between;
+}
+
+.highlight{
+  background: linear-gradient(90deg, #4A90E2 0%, #32CD32 100%);
+  
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+  display: inline-block;
+}
+
+.role {
+  
+  background: linear-gradient(90deg, #4A90E2 0%, #32CD32 100%);
+  
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+  display: inline-block;
 }
 
 .proficiency-bar span::after {
